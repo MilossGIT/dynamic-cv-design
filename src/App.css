@@ -1,38 +1,209 @@
-.App {
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: #282c34;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.header-container:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.profile-img::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff5722, #ff9800);
+  opacity: 0.6;
+}
+
+.header-content {
+  margin-left: 20px;
+  flex-grow: 1;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-content h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-content p {
+  font-size: 14px;
+  margin: 5px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-content a:hover {
+  text-decoration: underline;
+}
+
+/* About */
+.about-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Work Experience */
+.work-experience-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.work-experience-content {
+  text-align: center;
+}
+
+.work-experience-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.work-experience-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Education */
+.education-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.education-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.education-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.education-item a:hover {
+  text-decoration: underline;
+}
+
+/* Skills */
+.skills-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.skill {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin: 0 10px 10px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skill-text {
+  font-size: 16px;
+}
+
+/* Languages */
+.languages-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.language {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin: 0 10px 10px 0;
+}
+
+.language-text {
+  font-size: 16px;
 }

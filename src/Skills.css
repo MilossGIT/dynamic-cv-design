@@ -1,0 +1,46 @@
+.skills-section {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.skills-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+.skill h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.skill p {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
