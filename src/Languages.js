@@ -11,7 +11,7 @@ function Languages() {
           <ul>
             <li>Serbian native</li>
             <li>English fluent</li>
-            <li>GSlovenian fluent</li>
+            <li>Slovenian fluent</li>
           </ul>
         </div>
       </div>
