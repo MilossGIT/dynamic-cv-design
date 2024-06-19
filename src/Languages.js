@@ -9,10 +9,9 @@ function Languages() {
         <div className='job-content'>
           <h3>Languages</h3>
           <ul>
-            <li>Serbian (Native)</li>
-            <li>English: C2 (Understanding, Speaking, Writing)</li>
-            <li>German: A1 (Understanding, Speaking, Writing)</li>
-            <li>Slovenian: B1 (Understanding), A1 (Speaking, Writing)</li>
+            <li>Serbian native</li>
+            <li>English fluent</li>
+            <li>GSlovenian fluent</li>
           </ul>
         </div>
       </div>
