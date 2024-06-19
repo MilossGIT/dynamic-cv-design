@@ -6,7 +6,7 @@ function Header() {
     <header className='header-container'>
       <div className='profile-img-container'>
         <img
-          src='https://media.licdn.com/dms/image/C4E03AQHmB6NIVlS4aw/profile-displayphoto-shrink_800_800/0/1633972045021?e=1715817600&v=beta&t=F8dJGuUIKldt5jZP_UAxRruW65Dc_QZsVpelYFaEq5U'
+          src='https://media.licdn.com/dms/image/D4D03AQFs5iYthlRcwQ/profile-displayphoto-shrink_400_400/0/1718219246681?e=1724284800&v=beta&t=_1jjiRWdv_oo4llCvW7f6JiWkcFI-ztUCU8Lr1TF6Mk'
           className='profile-img'
           alt='Profile'
         />
